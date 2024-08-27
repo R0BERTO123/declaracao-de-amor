@@ -1,5 +1,5 @@
 let senha = document.getElementById('senha');
-let senhaCorreta = 1234;
+let senhaCorreta = "amarelo";
 var sec=0;
 let audio = document.getElementById('audio');
 
@@ -8,7 +8,7 @@ function confirmar(){
     amor();
     start();
     } else{
-        alert('Você não é o meu amor');
+        alert('ESCREVEU ERRADO TIONGA ');
     }
 };
 
